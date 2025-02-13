@@ -1,0 +1,48 @@
+echo "<!DOCTYPE html>
+<html>
+<head>
+    <title>My Dockerized HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #4CAF50;
+            margin-top: 50px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h1>Hello, World! Hosted from GitHub and running in Docker Playground.</h1>
+        <p>This is an enhanced version of the HTML page with more content and styling. This page is Dockerized and hosted through GitHub. Feel free to explore!</p>
+        <img src='https://via.placeholder.com/300' alt='Placeholder Image' />
+        <p>Check out more about <a href='https://www.docker.com'>Docker</a> and its usage!</p>
+    </div>
+</body>
+</html>" > index.html
